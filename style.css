@@ -1,0 +1,56 @@
+:root {
+    --mainBlue: #064789;
+    --secondBlue: #477aa1;
+    --kindaWhite: #EBF2FA;
+    --lemon: #679436;
+    --lightlemon: #A5BE00;
+}
+body{
+    background: var(--mainBlue);
+    color: #f5f5f5;
+}
+.btn-green{
+    border-color: #f5f5f5;
+    background: transparent;
+    color: var(--kindaWhite)
+}
+.btn-green:hover{
+    background: #f5f5f5;
+    color: var(--secondBlue);
+}
+.form-control{
+    border-color: var(--kindaWhite) !important;
+}
+.feedback{
+    display: none;
+}
+.item{
+    display: flex;
+    cursor: pointer;
+    
+}
+.complete-item{
+    color: var(--kindaWhite);
+}
+.complete-item:hover{
+    color: var(--mainGreen);
+}
+.edit-item{
+    color: var(--secondBlue);
+}
+.delete-item{
+    color: #d62828;
+}
+.delete-item:hover{
+    color: #d62828;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.visibility{
+    opacity: 0.5;
+}
+.showItem{
+    display: block;
+}
